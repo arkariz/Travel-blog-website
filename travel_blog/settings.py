@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'travel_blog.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'd5kb71052fha4a',
+        'NAME': os.path.join(BASE_DIR, 'd5kb71052fha4a'),
         'HOST': 'ec2-107-20-15-85.compute-1.amazonaws.com',
         'PORT': 5432,
         'USER': 'vhmubcioudakzr',
