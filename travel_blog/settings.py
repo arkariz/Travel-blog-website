@@ -80,11 +80,11 @@ DATABASES = {
         'NAME': 'd5kb71052fha4a',
         'HOST': 'ec2-107-20-15-85.compute-1.amazonaws.com',
         'PORT': 5432,
-        'USER': 'vhmubcioudakz',
+        'USER': 'vhmubcioudakzr',
         'PASSWORD': 'fc363406a8a2790f239de07c65d784c41ef498330a258aed19f14bf9743f6404'
     }
 }
-
+postgres://vhmubcioudakzr:fc363406a8a2790f239de07c65d784c41ef498330a258aed19f14bf9743f6404@ec2-107-20-15-85.compute-1.amazonaws.com:5432/d5kb71052fha4a
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
