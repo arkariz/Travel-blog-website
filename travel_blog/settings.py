@@ -25,7 +25,7 @@ SECRET_KEY = '9d0vvi*izx@xt_xkr!e_usxs7fr@k8j7912xlr+-5-)8m)@b7^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['powerful-sands-49232.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['powerful-sands-49232.herokuapp.com', 'localhost']
 
 
 # Application definition
@@ -124,5 +124,5 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR,'static'),
 ]
 VENV_PATH = os.path.dirname(BASE_DIR)
-STATIC_ROOT = os.path.join(VENV_PATH, 'static_root')
-MEDIA_ROOT = os.path.join(VENV_PATH, 'media_root')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static_root')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media_root')
