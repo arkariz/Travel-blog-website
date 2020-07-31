@@ -3,11 +3,12 @@ from django.urls import path
 from django.conf import settings
 from django.conf.urls.static import static
 
-from post.views import index
+from post.views import index, post
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index),
+    path('post/<id>', post, name='post-detail' )
 ]
 
 if settings.DEBUG:
